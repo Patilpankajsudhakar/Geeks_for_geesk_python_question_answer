@@ -15,8 +15,9 @@ class Solution:
 
 # function approch
 class Solution:
-  def Union_two_array(self,arr1,arr2):
+    def Union_two_array(self,arr1,arr2):
       set1=set(arr1)
       set2=set(arr2)
       final_arr=list(set1.union(set2))
-  return len(final_arr)
+      
+       return len(final_arr)
